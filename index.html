@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List 2.0</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>To Do List</h1>
+      <form id="taskInputForm">
+        <input
+          type="text"
+          placeholder="Enter task title..."
+          id="taskTitleInput"
+        />
+        <input
+          type="text"
+          placeholder="Enter task content..."
+          id="taskContentInput"
+        />
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+      <ul id="taskList"></ul>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/66cfa9a7a0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
