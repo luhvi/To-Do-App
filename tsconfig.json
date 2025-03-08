@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "incremental": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "verbatimModuleSyntax": true,
+    "allowJs": true,
+    "noImplicitAny": true,
+    "moduleDetection": "force",
+    "esModuleInterop": true,
+    "target": "ES2022",
+    "moduleResolution": "node",
+    "noUncheckedIndexedAccess": false,
+    "module": "ES2022",
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "*/.log",
+    "public",
+    "vite.config.js"
+  ]
+}
